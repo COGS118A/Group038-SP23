@@ -1,0 +1,15 @@
+SVC:
+use down-sampling and 1000 samples to find the best param:
+348 candidates, totalling 1740 fits
+'best_params': {'classifier__C': 3.1622776601683795,
+  'classifier__gamma': 0.03162277660168379,
+  'classifier__kernel': 'rbf'}
+
+with 10000 data points and use the best parameter:
+{'accuracy': 0.9417, 'recall': 0.7880133185349611, 'f1': 0.7089365951073389}
+
+KNN:
+{'k': 12,
+ 'accuracy': 0.9613,
+ 'recall': 0.5971143174250833,
+ 'f1': 0.7354750512645251}
